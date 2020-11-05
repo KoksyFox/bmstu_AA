@@ -31,7 +31,7 @@ def levenshtein_matrix(s1, s2):
                                matrix[i][j-1] + 1,
                                matrix[i-1][j-1] + m)
 
-    print_matrix(s1, s2, matrix)
+    #print_matrix(s1, s2, matrix)
     
     return matrix[-1][-1]
 
@@ -56,7 +56,7 @@ def levenshtein_rec_matr_wrap(s1, s2):
 
     levenshtein_recursive_matrix(s1, s2, len(s1), len(s2), matrix)
 
-    print_matrix(s1, s2, matrix)
+    #print_matrix(s1, s2, matrix)
     
     return matrix[-1][-1]
 
@@ -96,17 +96,7 @@ def dameray_levenshtein(s1, s2):
                 matrix[i][j] = min(matrix[i-1][j] + 1,
                                    matrix[i][j-1] + 1,
                                    matrix[i-1][j-1] + m)
-    print_matrix(s1, s2, matrix)
+    #print_matrix(s1, s2, matrix)
     
     return matrix[-1][-1]
 
-
-
-def main():
-    s1 = "telo"
-    s2 = "stolb"
-    print("Расстояние между строками:", levenshtein_rec_matr_wrap(s1, s2))
-
-
-if __name__ == "__main__":
-    main()

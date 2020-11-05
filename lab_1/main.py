@@ -2,17 +2,17 @@
 ##
 
 import levenshtein as lev
+import time_test as t
 
 def GetStrAndRun(function):
     str1 = input("Введите первую строку: ")
     str2 = input("Введите вторую строку: ")
-    res = function(str1, str2)
-    print("Дистанция между строками = ", res)
+    print("Расстояние между строками:", function(str1, str2))
 
 def Menu():
     flag = True
     while (flag):
-        case = input("Menu:\n \
+        case = input("Меню:\n \
 \t1. Левенштейн с матрицей\n \
 \t2. Левенштейн с рекурсией\n \
 \t3. Левенштейн рекурсивный с матрицей\n \
@@ -27,6 +27,11 @@ def Menu():
             GetStrAndRun(lev.levenshtein_rec_matr_wrap)
         elif (case == "4"):
             GetStrAndRun(lev.dameray_levenshtein)      
+        elif (case == "5"):
+            t.time_test(3)
+            t.time_test(5)
+            t.time_test(7)
+            t.time_test(10)
         else:
             flag = False
 
