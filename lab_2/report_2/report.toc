@@ -1,0 +1,31 @@
+\babel@toc {russian}{}
+\contentsline {section}{Введение}{3}%
+\contentsline {section}{\numberline {1}Аналитическая часть}{4}%
+\contentsline {subsection}{\numberline {1.1}Описание алгоритмов}{5}%
+\contentsline {subsubsection}{\numberline {1.1.1}Рекурсивный алгоритм Левенштейна}{5}%
+\contentsline {subsubsection}{\numberline {1.1.2}Матричный алгоритм Левенштейна}{5}%
+\contentsline {subsubsection}{\numberline {1.1.3}Матричный алгоритм Левенштейна}{6}%
+\contentsline {section}{\numberline {2}Конструкторская часть}{6}%
+\contentsline {subsection}{\numberline {2.1}Разработка алгоритмов}{7}%
+\contentsline {subsubsection}{\numberline {2.1.1}Схема рекурсивной реализации алгоритма Левенштейна}{7}%
+\contentsline {subsubsection}{\numberline {2.1.2}Схема матричной реализации алгоритма Левенштейна}{8}%
+\contentsline {subsubsection}{\numberline {2.1.3}Схема рекурсивного матричного алгоритма Левенштейна}{9}%
+\contentsline {subsubsection}{\numberline {2.1.4}Схема алгоритма Дамерау-Левенштейна}{10}%
+\contentsline {section}{\numberline {3}Технологическая часть}{11}%
+\contentsline {subsection}{\numberline {3.1}Требования к программному обеспечению}{11}%
+\contentsline {subsection}{\numberline {3.2}Средства реализации}{11}%
+\contentsline {subsection}{\numberline {3.3}Листинг кода}{11}%
+\contentsline {subsubsection}{\numberline {3.3.1}Рекурсивный алгоритм Левенштейна}{11}%
+\contentsline {subsubsection}{\numberline {3.3.2}Матричный алгоритм Левенштейна}{12}%
+\contentsline {subsubsection}{\numberline {3.3.3}Рекурсивный матричный алгоритм Левенштейна}{12}%
+\contentsline {subsubsection}{\numberline {3.3.4}Алгоритм Дамерау-Левенштейна}{14}%
+\contentsline {subsection}{\numberline {3.4}Сравнительный анализ матричной и рекурсивной реализаций}{15}%
+\contentsline {subsubsection}{\numberline {3.4.1}Теоретический анализ затрачиваемой памяти}{15}%
+\contentsline {subsection}{\numberline {3.5}Описание тестирования}{16}%
+\contentsline {subsubsection}{\numberline {3.5.1}Интерфейс программы}{16}%
+\contentsline {subsubsection}{\numberline {3.5.2}Тесты}{16}%
+\contentsline {section}{\numberline {4}Экспериментальная часть}{17}%
+\contentsline {subsection}{\numberline {4.1}Примеры работы}{17}%
+\contentsline {subsection}{\numberline {4.2}Постановка эксперимента по замеру времени}{18}%
+\contentsline {subsection}{\numberline {4.3}Сравнительный анализ на материале экспериментальных данных}{19}%
+\contentsline {section}{Заключение}{19}%
